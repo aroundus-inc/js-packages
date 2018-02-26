@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0-alpha.6"></a>
+# [1.0.0-alpha.6](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.5...eslint-config-aroundus@1.0.0-alpha.6) (2018-02-26)
+
+
+### Features
+
+* **eslint-config-aroundus:** override imported configs ([2c1527c](https://github.com/aroundus-inc/js-packages/commit/2c1527c))
+
+
+
+
 <a name="1.0.0-alpha.5"></a>
 # [1.0.0-alpha.5](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.4...eslint-config-aroundus@1.0.0-alpha.5) (2018-02-26)
 
