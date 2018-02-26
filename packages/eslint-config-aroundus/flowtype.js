@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['plugin:flowtype/recommended'],
+  extends: ['plugin:flowtype/recommended', require.resolve('./index')],
   plugins: ['flowtype'],
 };
