@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0-alpha.5"></a>
+# [1.0.0-alpha.5](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.4...eslint-config-aroundus@1.0.0-alpha.5) (2018-02-26)
+
+
+### Bug Fixes
+
+* **eslint-config-eslint:** don't use require.resolve in plugins ([1a5b8a1](https://github.com/aroundus-inc/js-packages/commit/1a5b8a1))
+
+
+### Features
+
+* **eslint-config-eslint:** extend eslint:recommended ([d4b4d2d](https://github.com/aroundus-inc/js-packages/commit/d4b4d2d))
+
+
+
+
 <a name="1.0.0-alpha.4"></a>
 # [1.0.0-alpha.4](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.3...eslint-config-aroundus@1.0.0-alpha.4) (2018-02-26)
 
