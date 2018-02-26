@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0-alpha.7"></a>
+# [1.0.0-alpha.7](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.6...eslint-config-aroundus@1.0.0-alpha.7) (2018-02-26)
+
+
+### Features
+
+* **eslint-config-arounuds:** override index for all configs ([47f4cbb](https://github.com/aroundus-inc/js-packages/commit/47f4cbb))
+
+
+
+
 <a name="1.0.0-alpha.6"></a>
 # [1.0.0-alpha.6](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.5...eslint-config-aroundus@1.0.0-alpha.6) (2018-02-26)
 
