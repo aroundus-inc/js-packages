@@ -14,6 +14,7 @@ module.exports = {
     'no-shadow': 'error',
     'no-undef': 'error',
     'no-var': 'error',
+    'no-empty': 'off',
     'no-unused-vars': isDev ? 'warn' : 'error',
     'prefer-const': 'error',
     'no-continue': 'error',

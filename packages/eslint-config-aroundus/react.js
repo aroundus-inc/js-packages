@@ -10,6 +10,9 @@ module.exports = {
     browser: true,
   },
   rules: {
+    'default-case': 'off',
+    eqeqeq: ['error', 'smart'],
+    'no-template-curly-in-string': 'off',
     'jsx-a11y/href-no-hash': 'off',
   },
 };
