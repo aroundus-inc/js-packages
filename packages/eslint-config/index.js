@@ -1,8 +1,6 @@
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
-  plugins: ['prettier'],
-  extends: ['react-app', 'prettier'],
   env: {
     es6: true,
     jest: true,
