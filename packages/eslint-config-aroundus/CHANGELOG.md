@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0-alpha.8"></a>
+# [1.0.0-alpha.8](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.7...eslint-config-aroundus@1.0.0-alpha.8) (2018-02-26)
+
+
+### Features
+
+* **eslint-config-eslint:** turn off no-constant-condition ([c96003a](https://github.com/aroundus-inc/js-packages/commit/c96003a))
+
+
+
+
 <a name="1.0.0-alpha.7"></a>
 # [1.0.0-alpha.7](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.6...eslint-config-aroundus@1.0.0-alpha.7) (2018-02-26)
 
