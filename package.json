@@ -20,7 +20,7 @@
   },
   "scripts": {
     "install": "lerna bootstrap",
-    "publish": "lerna publish --npm-tag next --cd-version prerelease --conventional-commits"
+    "lerna-publish": "lerna publish --npm-tag next --cd-version prerelease --conventional-commits"
   },
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
