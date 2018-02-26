@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: [require.resolve('eslint-plugin-prettier')],
+  plugins: ['prettier'],
   extends: [
     require.resolve('eslint-config-prettier'),
     require.resolve('./flowtype'),
