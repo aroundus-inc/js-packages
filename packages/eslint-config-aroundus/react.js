@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     require.resolve('./index'),
-    require.resolve('react-app'),
+    require.resolve('eslint-config-react-app'),
     require.resolve('./prettier'),
     require.resolve('eslint-config-prettier/react'),
   ],
