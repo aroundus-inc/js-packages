@@ -13,7 +13,6 @@
     "prettier.js"
   ],
   "dependencies": {
-    "eslint-config-aroundus": "^1.0.0",
     "tslint-config-standard": "^7.0.0"
   },
   "peerDependencies": {
