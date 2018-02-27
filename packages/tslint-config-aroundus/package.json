@@ -1,0 +1,24 @@
+{
+  "name": "tslint-config-aroundus",
+  "version": "1.0.0",
+  "description": "tslint config for aroundus js projects",
+  "main": "index.js",
+  "repository": "https://github.com/aroundus-inc/js-packages.git",
+  "author": "Taehyun Derek Kim <kimxogus@aroundus.com>",
+  "license": "Apache-2.0",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.js",
+    "prettier.js"
+  ],
+  "dependencies": {
+    "eslint-config-aroundus": "^1.0.0",
+    "tslint-config-standard": "^7.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "^1.10.2",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  }
+}
