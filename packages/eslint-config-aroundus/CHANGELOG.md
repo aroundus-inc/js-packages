@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0-alpha.9"></a>
+# [1.0.0-alpha.9](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.8...eslint-config-aroundus@1.0.0-alpha.9) (2018-02-27)
+
+
+### Features
+
+* **eslint-config-aroundus:** disable no-case-declaration ([72889de](https://github.com/aroundus-inc/js-packages/commit/72889de))
+
+
+
+
 <a name="1.0.0-alpha.8"></a>
 # [1.0.0-alpha.8](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.7...eslint-config-aroundus@1.0.0-alpha.8) (2018-02-26)
 
