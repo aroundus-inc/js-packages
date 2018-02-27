@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aroundus",
-  "version": "1.0.0-alpha.11",
+  "version": "1.0.0",
   "description": "eslint config for aroundus js projects",
   "main": "index.js",
   "repository": "https://github.com/aroundus-inc/js-packages.git",

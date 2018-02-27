@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.11...eslint-config-aroundus@1.0.0) (2018-02-27)
+
+
+
+
+**Note:** Version bump only for package eslint-config-aroundus
+
 <a name="1.0.0-alpha.11"></a>
 # [1.0.0-alpha.11](https://github.com/aroundus-inc/js-packages/compare/eslint-config-aroundus@1.0.0-alpha.10...eslint-config-aroundus@1.0.0-alpha.11) (2018-02-27)
 
