@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['react'],
   extends: [
     require.resolve('eslint-config-react-app'),
     require.resolve('./prettier'),
@@ -6,7 +7,6 @@ module.exports = {
     require.resolve('./index'),
   ],
   env: {
-    node: true,
     browser: true,
   },
   rules: {
