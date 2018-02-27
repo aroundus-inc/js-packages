@@ -1,5 +1,13 @@
-# eslint-config-aroundus
+# aroundus js packages
 
+## eslint-config-aroundus
 ```bash
-$ yarn add @aroundus/eslint-config
+$ yarn add eslint-config-aroundus --dev
+```
+
+- `.eslintrc`
+```json
+{
+  "extends": ["aroundus"]
+}
 ```
