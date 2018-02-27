@@ -1,4 +1,9 @@
-const isDev = process.env.NODE_ENV === 'development';
+const eslintRules = require('eslint-config-aroundus').rules;
+const convertedEslintRules = Object.keys(eslintRules).reduce((a, b) => {
+  a[b] = Array.isArray(eslintRules[b]) ? eslintRules[b] : [eslintRules[b]];
+  a[b][0] = a[b][0] === 'error';
+  return a;
+}, {});
 
 module.exports = {
   extends: ['tslint:recommended'],
@@ -7,23 +12,17 @@ module.exports = {
     node: true,
     jest: true,
   },
-  rules: {
-    'default-case': 'off',
-    eqeqeq: ['error', 'smart'],
-    'no-case-declarations': 'off',
-    'no-console': isDev ? 'warn' : 'error',
-    'no-constant-condition': 'off',
-    'no-continue': 'error',
-    'no-duplicate-imports': 'error',
-    'no-dupe-keys': 'error',
-    'no-empty': 'off',
-    'no-extend-native': 'error',
-    'no-shadow': 'error',
-    'no-template-curly-in-string': 'off',
-    'no-undef': 'error',
-    'no-unused-vars': isDev ? 'warn' : 'error',
-    'no-var': 'error',
-    'prefer-const': 'error',
-  },
-  jsRules: require('eslint-config-aroundus').rules,
+  rules: Object.assign(
+    {
+      'object-literal-sort-keys': false,
+      'no-unused-variable': true,
+      'no-var-requires': false,
+      'no-implicit-dependencies': false,
+      'no-submodule-imports': false,
+      'no-empty-interface': false,
+      'no-console': false,
+    },
+    convertedEslintRules
+  ),
+  jsRules: convertedEslintRules,
 };
