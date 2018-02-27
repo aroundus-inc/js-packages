@@ -11,7 +11,7 @@ module.exports = {
   rules: {
     'default-case': 'off',
     eqeqeq: ['error', 'smart'],
-    'no-case-declaration': 'off',
+    'no-case-declarations': 'off',
     'no-console': isDev ? 'warn' : 'error',
     'no-constant-condition': 'off',
     'no-continue': 'error',
