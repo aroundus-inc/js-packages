@@ -1,9 +1,12 @@
+const isDev = process.env.NODE_ENV === 'development';
+
 module.exports = {
   extends: ['tslint:recommended'],
   rulesDirectory: ['tslint-config-standard'],
   rules: {
     'object-literal-sort-keys': false,
-    'no-unused-variable': true,
+    'no-console': isDev ? false : true,
+    'no-unused-variable': isDev ? false : true,
     'no-var-requires': false,
     'no-implicit-dependencies': false,
     'no-submodule-imports': false,
