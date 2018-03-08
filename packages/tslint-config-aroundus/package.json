@@ -1,10 +1,12 @@
 {
   "name": "tslint-config-aroundus",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "tslint config for aroundus js projects",
   "main": "index.js",
   "keywords": [
-    "tslint", "config", "aroundus"
+    "tslint",
+    "config",
+    "aroundus"
   ],
   "repository": "https://github.com/aroundus-inc/js-packages.git",
   "homepage": "https://github.com/aroundus-inc/js-packages#readme",
