@@ -4,7 +4,9 @@
   "description": "eslint config for aroundus js projects",
   "main": "index.js",
   "keywords": [
-    "eslint", "config", "aroundus"
+    "eslint",
+    "config",
+    "aroundus"
   ],
   "repository": "https://github.com/aroundus-inc/js-packages.git",
   "homepage": "https://github.com/aroundus-inc/js-packages#readme",
@@ -21,6 +23,7 @@
   ],
   "dependencies": {
     "babel-eslint": "^8.2.2",
+    "eslint-config-jest-enzyme": "^5.0.3",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-react-app": "^2.0.1",
     "eslint-plugin-flowtype": "^2.46.1",
