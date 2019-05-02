@@ -2,7 +2,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
   extends: ['eslint:recommended'],
-  parser: 'babel-eslint',
+  parser: require.resolve('babel-eslint'),
   env: {
     node: true,
     es6: true,

@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['prettier'],
+  plugins: ['eslint-plugin-prettier'],
   extends: [
     require.resolve('eslint-config-prettier'),
     require.resolve('./index'),
