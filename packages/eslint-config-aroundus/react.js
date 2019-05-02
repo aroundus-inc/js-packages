@@ -1,5 +1,11 @@
 module.exports = {
-  plugins: ['eslint-plugin-react'],
+  plugins: [
+    'eslint-plugin-import',
+    'eslint-plugin-flowtype',
+    'eslint-plugin-jsx-a11y',
+    'eslint-plugin-react',
+    'eslint-plugin-react-hooks',
+  ],
   extends: [
     require.resolve('eslint-config-react-app'),
     require.resolve('./index'),
