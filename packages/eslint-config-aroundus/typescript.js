@@ -9,8 +9,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   extends: [
-    require.resolve('./prettier'),
-    require.resolve('eslint-config-jest-enzyme'),
+    require.resolve('eslint-config-prettier/@typescript-eslint'),
     require.resolve('./index'),
   ],
   rules: {
