@@ -16,4 +16,13 @@ module.exports = {
   rules: {
     '@typescript-eslint/indent': 'off',
   },
+  overrides: [
+    {
+      files: ['**/*.ts', '**/*.tsx'],
+      rules: {
+        'no-unused-vars': ['off'],
+        'no-undef': ['off'],
+      },
+    },
+  ],
 };
