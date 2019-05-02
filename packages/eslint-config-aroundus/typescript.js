@@ -9,12 +9,11 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   extends: [
+    'plugin:@typescript-eslint/recommended',
     require.resolve('eslint-config-prettier/@typescript-eslint'),
+    require.resolve('./prettier'),
     require.resolve('./index'),
   ],
-  rules: {
-    '@typescript-eslint/indent': 'off',
-  },
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
