@@ -23,21 +23,27 @@
     "typescript.js"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.7.0",
-    "@typescript-eslint/parser": "^1.7.0",
-    "babel-eslint": "^10.0.1",
-    "eslint-config-jest-enzyme": "^7.0.2",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-config-react-app": "^4.0.1",
-    "eslint-plugin-flowtype": "^3.12.1",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint-config-jest-enzyme": "^7.1.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "^4.2.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0"
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1"
   },
   "peerDependencies": {
     "eslint": ">=5.16.0",
     "prettier": ">=1.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "husky": "^3.0.4",
+    "lerna": "^3.16.4",
+    "lint-staged": "^9.2.4"
   }
 }
