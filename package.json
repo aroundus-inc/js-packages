@@ -8,18 +8,18 @@
   "license": "Apache-2.0",
   "private": true,
   "devDependencies": {
-    "@types/node": "^11.13.19",
+    "@types/node": "^11.15.2",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.2.2",
-    "husky": "^3.0.4",
-    "lerna": "^3.16.4",
-    "lint-staged": "^9.2.4",
+    "eslint": "^6.6.0",
+    "husky": "^3.0.9",
+    "lerna": "^3.18.3",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
-    "tslint": "^5.19.0",
-    "typescript": "^3.5.3"
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
   },
   "scripts": {
-    "install": "lerna bootstrap",
+    "install": "lerna bootstrap --hoist",
     "lerna-publish": "lerna publish --conventional-commits"
   },
   "husky": {

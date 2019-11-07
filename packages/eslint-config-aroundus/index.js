@@ -12,6 +12,7 @@ module.exports = {
     'default-case': 'off',
     eqeqeq: ['error', 'smart'],
     'no-case-declarations': 'off',
+    'no-confusing-arrow': ['error', { allowParens: true }],
     'no-console': isDev ? 'warn' : 'error',
     'no-constant-condition': 'off',
     'no-continue': 'error',

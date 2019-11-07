@@ -5,7 +5,6 @@ module.exports = {
     require.resolve('./index'),
   ],
   rules: {
-    'no-confusing-arrow': ['error', { allowParens: false }],
     'prettier/prettier': 'error',
   },
 };
